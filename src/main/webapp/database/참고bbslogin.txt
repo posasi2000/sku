@@ -1,0 +1,20 @@
+
+ drop table bbslogin;
+ create table bbslogin( 
+   userid varchar2(10) primary key ,
+   pwd varchar2(10) not null 
+ );
+ commit;
+ 
+ insert into bbslogin values( 'sky' , '1234' );
+ insert into bbslogin values( 'blue' , '1234' );
+ insert into bbslogin values( 'kim' , '1234' );
+ select * from  bbslogin;
+ commit ;
+
+
+
+
+
+ 
+ 

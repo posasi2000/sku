@@ -1,0 +1,27 @@
+
+ drop sequence test_seq ;
+ create sequence test_seq ;
+ 
+ drop table test ;
+ create table test (
+      title varchar2(10) not null ,
+      pay  number(3) not null ,
+      gender varchar2(10) not null ,
+      wdate date not null ,
+      code  number(4) primary key ,
+      img_file_name varchar2(30) not null 
+ );
+ commit ; 
+ 
+ select * from test ;
+ col title for a10 ;
+ col img_file_name  for a12 ;
+ select * from test ;
+ commit ; 
+
+ 
+ 
+ 
+ 
+ 
+ 
