@@ -1,6 +1,6 @@
 
 *{ 
-    font-family: ¸¼Àº °íµñ; 
+    font-family: ë§‘ì€ ê³ ë”•; 
     font-size: 20px;
     font-weight: bold;
     margin: 0px;
@@ -9,11 +9,11 @@
 
  
 
-  /* ¸Ş´º ±¸¼º ½ÃÀÛ 1*/
+  /* ë©”ë‰´ êµ¬ì„± ì‹œì‘ 1*/
   nav{ margin-bottom: 25px; }
 
   
-  /* ¸Ş´º ±¸¼º ½ÃÀÛ 2, ÅÂ±×ÀÇ id °¡ topMenuÀÎ ½ºÅ¸ÀÏ*/  
+  /* ë©”ë‰´ êµ¬ì„± ì‹œì‘ 2, íƒœê·¸ì˜ id ê°€ topMenuì¸ ìŠ¤íƒ€ì¼*/  
   #topMenu{
     height: 40px;
     width: 100%;
@@ -21,27 +21,27 @@
   }
   
   #topMenu ul li{
-    list-style: none;     /* ºí·¿ ±âÈ£ Á¦°Å  list-style: none;   */
-    color: white;         /* ±ÛÀÚ #555555 »ö°¥*/
+    list-style: none;     /* ë¸”ë › ê¸°í˜¸ ì œê±°  list-style: none;   */
+    color: white;         /* ê¸€ì #555555 ìƒ‰ê°ˆ*/
     background-color:  #21517B;
-    float: left;      /* float: left;  li ÅÂ±×ÀÇ Ãâ·Â ¹æÇâÀ» ÁÂÃøÀ¸·Î º¯°æ */
-    line-height: 30px; /* ÇÏ³ªÀÇ Çà ³ôÀÌ */
-    vertical-align: middle; /* ¼¼·Î ±âÁØ Áß°£ Á¤·Ä */
-    text-align: center;      /* °¡·Î ±âÁØ Á¤·Ä */
+    float: left;      /* float: left;  li íƒœê·¸ì˜ ì¶œë ¥ ë°©í–¥ì„ ì¢Œì¸¡ìœ¼ë¡œ ë³€ê²½ */
+    line-height: 30px; /* í•˜ë‚˜ì˜ í–‰ ë†’ì´ */
+    vertical-align: middle; /* ì„¸ë¡œ ê¸°ì¤€ ì¤‘ê°„ ì •ë ¬ */
+    text-align: center;      /* ê°€ë¡œ ê¸°ì¤€ ì •ë ¬ */
   }
   
    
-  #topMenu .menuLink{   /* A ÅÂ±× ¼Ó¼º Àû¿ë */
-    text-decoration: none;  /* ¹ØÁÙ Á¦°Å */
+  #topMenu .menuLink{   /* A íƒœê·¸ ì†ì„± ì ìš© */
+    text-decoration: none;  /* ë°‘ì¤„ ì œê±° */
     color: white;   
-    display: block;   /* A °ü·Ã ¿µ¿ª ÀüºÎ ¸µÅ© ¼³Á¤ */
+    display: block;   /* A ê´€ë ¨ ì˜ì—­ ì „ë¶€ ë§í¬ ì„¤ì • */
     width: 150px;
     font-weight: bold;
     font-family: comic Sans MS ; 
     font-size: 16pt;
   }
   
-  #topMenu .menuLink:hover {  /* A ÅÂ±×¿¡ ¸¶¿ì½º over ¼Ó¼º Àû¿ë */
+  #topMenu .menuLink:hover {  /* A íƒœê·¸ì— ë§ˆìš°ìŠ¤ over ì†ì„± ì ìš© */
     color: #10385A;
     background-color: #C0DEF9;
     font-size: 16pt;
@@ -59,11 +59,11 @@
 
 
 #table{
-    margin: 0px auto;  /* °¡¿îµ¥ Á¤·Ä */
-    border-style: solid; /*  ½Ç¼± */
-    border-width: 5px; /* ¼± µÎ²² */
-    border-color: #999999; /* ¼± »ö±ò */
-    border-collapse: collapse; /* ¼¿ °æ°è¼± º´ÇÕ*/
+    margin: 0px auto;  /* ê°€ìš´ë° ì •ë ¬ */
+    border-style: solid; /*  ì‹¤ì„  */
+    border-width: 5px; /* ì„  ë‘ê»˜ */
+    border-color: #999999; /* ì„  ìƒ‰ê¹” */
+    border-collapse: collapse; /* ì…€ ê²½ê³„ì„  ë³‘í•©*/
 }
  
  

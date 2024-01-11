@@ -1,22 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"   %>
-<link rel="stylesheet" type="text/css" href="../css/style.css">
-<div>
-<img src='../images/carousel1.jpg' width='100%' height='200px'  id='topIMG'>
-  
-<nav id="topMenu">
-  <ul>
-      <li><a class='menuLink' href='index.jsp'>index</a></li>
-      <li><a class='menuLink' href='bbsList.jsp'>bbsList</a></li>
-      <li><a class='menuLink' href='Input.html'>input</a></li>
-      <li><a class='menuLink' href='bbsImgList.jsp'>bbsImage</a></li> 
-      <li><a class='menuLink' href='login.jsp'>login</a></li> 
-  </ul>	   
-    <div align="right">
-	   <div id="result"></div>	
-	</div>
-</nav>
-  
-</div>
 
 <!DOCTYPE html>
 <html>
@@ -27,7 +9,8 @@
    <meta name="author" content="author">
    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-<title> [login.jsp]</title>
+   <title> [login.jsp]</title>
+
    <style type="text/css">
 	  *{font-size:16pt; font-weight:bold;  font-family: Comic Sans MS ; margin-left: 10px; }
 	  a{font-size:16pt; text-decoration:none; font-weight:bold; color:blue;  font-family: Comic Sans MS ; }
@@ -40,6 +23,24 @@
 	   }
    </style>
 </head>
+
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<div>
+<img src='../images/carousel1.jpg' width='100%' height='200px'  id='topIMG'>
+<nav id="topMenu">
+  <ul>
+      <li><a class='menuLink' href='index.jsp'>index</a></li>
+      <li><a class='menuLink' href='bbsList.jsp'>bbsList</a></li>
+      <li><a class='menuLink' href='input.jsp'>input</a></li>
+      <li><a class='menuLink' href='bbsImgList.jsp'>bbsImage</a></li> 
+      <li><a class='menuLink' href='login.jsp'>login</a></li> 
+  </ul>	   
+    <div align="right">
+	   <div id="result"></div>	
+	</div>
+</nav> 
+</div>
 
 <body>
 <div align="center">
@@ -62,7 +63,7 @@
 
 	<p>
 	<a href="index.jsp"> [index]</a>
-	<a href="Input.jsp"> [bbs입력화면]</a>
+	<a href="input.jsp"> [bbs입력화면]</a>
 	<a href="bbsList.jsp"> [bbs전체출력]</a>
 </div>
 </body>

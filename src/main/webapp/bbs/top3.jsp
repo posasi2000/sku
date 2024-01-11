@@ -8,7 +8,7 @@
   <ul>
       <li><a class='menuLink' href='index.jsp'>index</a></li>
       <li><a class='menuLink' href='bbsList.jsp'>bbsList</a></li>
-      <li><a class='menuLink' href='Input.html'>input</a></li>
+      <li><a class='menuLink' href='input.jsp'>input</a></li>
       <li><a class='menuLink' href='bbsImgList.jsp'>bbsImage</a></li> 
       <li><a class='menuLink' href='login.jsp'>login</a></li> 
   </ul>	  
