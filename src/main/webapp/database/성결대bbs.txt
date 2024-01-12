@@ -18,9 +18,7 @@
  
  drop  sequence  bbs_seq;  
 
- create sequence bbs_seq
-    start with 1 
-    increment by 1 ;
+ create sequence bbs_seq   start with 1   increment by 1 ;
 
  drop  table bbs;  
 
@@ -77,6 +75,19 @@ select * from  bbsreply ;
 commit ; 
 
 
+ col  b_name  for  a10
+ col  b_title  for  a10
+ col  b_file1  for a15;
+ select  b_sabun, b_name , b_title, b_file1  from  bbs  ;
 
-
-
+ col  br_writer  for  a10
+ col  br_content  for  a10
+ select  br_writer , br_content, br_sabun  from  bbsreply  ;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
